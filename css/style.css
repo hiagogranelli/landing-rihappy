@@ -1,0 +1,582 @@
+/* ======== Style ======== */
+body {font-family: Arial, Helvetica, sans-serif}
+textarea:focus, input:focus, select:focus, button:focus {box-shadow: 0 0 0 0;border: 0 none;outline: 0;} 
+
+/* Header */
+.header {
+	width: 100%;
+	height: auto;
+	background: #ffdd00;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top: -16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.header img {
+	margin-top: 40px;
+}
+.header h1, .header h2 {
+	color: #61479d;
+	margin: 20px 20px;
+	text-align: center;
+}
+.header h2 {
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.logo img {
+	width: 100%;
+	height: 82vh;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+
+
+/* Call To Action #1 */
+.cta-1 {
+	width: 100%;
+	height: 662px;
+	background: #ffdd00;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.cta-1 p {
+	font-size: 50px;
+	color: #fff;
+	padding-top: 10%;
+	color: #61479d;
+}
+
+
+/* Guia de Uso */
+.guia {
+	text-align: center;
+	background: #ffdd00;
+}
+
+.guia h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #61479d;
+}
+.guia h3 {
+	font-size: 30px;
+	margin-bottom: 50px;
+	color: #61479d;
+	font-weight: 400;
+}
+.guia p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.qr-code .number p {
+	text-align: center;
+	font-size: 27.89px;
+	font-weight: bold;
+	color: #61479d;
+}
+.valor .number p {
+	text-align: center;
+	font-size: 27.89px;
+	font-weight: bold;
+	color: #61479d;
+}
+.pagamento .number p {
+	text-align: center;
+	font-size: 27.89px;
+	font-weight: bold;
+	color: #61479d;
+}
+#premios {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+/* BG - Frutas Diversos #1 */
+.cta-diversos-1 {
+	width: 100%;
+	height: 336px;
+	background: url('../images/aviao-grande_04.jpg');
+	
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form-1 {
+	background: #ffdd00;
+	width: 100%;
+}
+/* Formulario #1 */
+.form-1 h3 {
+	font-size: 34px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #61479d;
+	margin-top: 40px;
+}
+.form-1 h4 {
+	width: 1024px;
+	font-size: 27px;
+	text-align: center;
+	margin: 20px auto 40px;
+	color: #61479d;
+	font-weight: 400;
+}
+
+/* Call To Action #2 */
+.cta-2 {
+	width: 100%;
+	height: 662px;
+	background: url('../images/family_06.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-2 .col-5 {
+	font-size: 60px;
+	color: #fff;
+	text-align: right;
+	float: right;
+}
+
+
+/* Conteudo TEXTO */
+.text {
+	background: #ffdd00;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.text h3 {
+	font-size: 34px;
+	text-align: center;
+	color: #61479d;
+	margin: 40px auto 20px;
+}
+.text p {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 27px;
+	color: #61479d;
+}
+#mulher {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+
+/* Formulario #2 */
+.form-2 {
+	width: 100%;
+	background: url('../image/bg-cta-formulario.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-2 h3 {
+	font-size: 60px;
+	color: #fff;
+}
+
+.form-2 input {
+	border:3px solid transparent;
+	width: 70%;
+	border-radius: 300px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 17% auto 0 auto;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.25s;
+}
+
+.form-2 input.success::placeholder {color: #8fc74c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.success::-moz-placeholder {color: #8fc74c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.success:-ms-input-placeholder {color: #8fc74c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.success:-moz-placeholder {color: #8fc74c;font-family: Arial, Helvetica, sans-serif;}
+
+.form-2 input.failed::placeholder {color: #e74c3c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.failed::-moz-placeholder {color: #e74c3c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.failed:-ms-input-placeholder {color: #e74c3c;font-family: Arial, Helvetica, sans-serif;}
+.form-2 input.failed:-moz-placeholder {color: #e74c3c;font-family: Arial, Helvetica, sans-serif;}
+
+.form-2 button {
+	width: 150px;
+	height: 44px;
+	border: none;
+	background: #8fc74c;
+	color: #fff;
+	border-radius: 30px;
+	cursor: pointer;
+	margin: 20px auto 0 auto;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 3px solid #8fc74c;
+}
+
+.form-2 button {
+	width: 150px;
+	height: 44px;
+	border: none;
+	background: #8fc74c;
+	color: #fff;
+	border-radius: 30px;
+	cursor: pointer;
+	margin: 20px auto 0 auto;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.30s;
+}
+
+.form-2 button:hover {
+	box-shadow: 0 0.5em 0.5em -0.4em #333;
+    transform: translateY(-0.25em);
+    color: #8fc74c;
+    background: #ffffff;
+    border: 3px solid #8fc74c;
+}
+
+.form-2 input:focus {
+	border:3px solid #000;
+	transition: 0.8s;
+}
+
+
+/* Footer */
+.footer {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.footer img {
+	max-width: 100%;
+}
+
+.footer p, .footer a {
+	font-size: 20px;
+	color: #161616;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+	text-decoration: none;
+	border-bottom: 2px solid #000;
+	transition: 0.3s;
+}
+
+.footer a:hover {
+	border-color: #8fc74c;
+}
+
+.footer i {
+	font-size: 20px;
+	color: #629b02;
+	margin-right: 10px;
+}
+
+
+/* BG - Frutas Diversos #2 */
+.cta-diversos-2 {
+	margin-top: 50px;
+	width: 100%;
+	height: 336px;
+	background: url('../image/bg-diversos-3.gif');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ======== BREAKPOINT ======== */
+@media only screen and (max-width: 576px) {
+	.header {
+		height: auto !important;
+	}
+	.header img {
+		margin-top: 40px;
+		width: 80%;
+	}
+	.header h1 {
+		margin: 20px 20px 40px;
+	}
+	.header h2 {
+		text-align: center;
+		font-size: 22px;
+		margin: 0 20px 40px;
+	}
+	.logo img, .footer img {
+		max-width: 100%;
+		height: 400px;
+	}
+	.logo h1 {
+		font-size: 22px;
+		padding: 0 30px;
+	}
+
+
+	.cta-1 {
+		height: 480px !important;
+		background-attachment: initial !important;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+	}
+	.cta-1 p {
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 30px;
+	}
+
+
+	.guia h2 {
+		font-size: 34px;
+		margin: 40px 20px 20px;
+	}
+	.guia h3 {
+		margin: 0px 20px 40px;
+		font-size: 24px;
+		font-weight: 400;
+	}
+	.qr-code .number p {
+		margin: 10px 20px 40px;
+	}
+	.valor .number p {
+		margin: 10px 20px 40px;
+	}
+	.pagamento .number p {
+		margin: 10px 20px 40px;
+	}
+
+	#premios {
+		flex-direction: column !important;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cta-diversos-1 {
+		background: url('../images/aviao_mobile.jpg') !important;
+		width: 100%;
+		background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height: 400px;
+	}
+
+
+	.form-1, .form-2 {
+		text-align: center;
+	}
+	.form-1 h3, .form-2 h3 {
+		font-size: 34px;
+	}
+	.form-1 h4{
+		width: auto;
+		margin: 20px 20px 40px;
+		font-weight: 400;
+		font-size: 24px;
+	}
+	.form-1 h3 {
+		margin: 40px 20px 0;
+	}
+	.form-1 input, .form-2 input {
+		width: 85%;
+	}
+	.form-1 input {
+		margin: 20px auto 0 auto;
+	}
+	.form-1 button, .form-2 button {
+		margin: 20px auto 0 auto;
+	}
+	.form-1 button {
+		margin-bottom: 20px;
+	}
+
+
+	.cta-2 {
+		height: 400px !important;
+		background-attachment: initial !important;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+	}
+	.cta-2 p {
+		text-align: right;
+		margin-right: 20px;
+		font-size: 40px;
+	}
+	.cta-2 .col-5 {
+		float: none;
+	}
+
+
+	.text {
+		padding: 0 20px;
+		margin: 0;
+	}
+	.text h3 {
+		margin: 40px 20px 20px;
+	}
+	.text p {
+		font-size: 24px;
+		margin: 0 20px;
+		width: auto !important;
+	}
+	.text img {
+		width: 90% !important;
+		margin: 40px 0 0;
+	}
+
+	.form-2 input {
+		margin: 20px auto 0 auto;
+	}
+	.form-2 .form {
+		padding-bottom: 35px;
+	}
+
+
+	.footer {
+		padding-bottom: 0;
+	}
+	.footer p {
+		font-size: 18px;
+		padding: 0 30px;
+	}
+	.footer div div p:first-child {
+		margin-top: 40px;
+	}
+	.footer div div p:nth-child(2), .footer div div p:nth-child(2) i {
+		font-size: 16px;
+	}
+
+
+	.cta-diversos-2 {
+		width: 100%;
+		height: 152px;
+		background: url('../image/bg-diversos-3-mobile.gif');
+		background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 1024px) {
+	.logo img {
+		max-width: 100%;
+	}
+	.qr-code .number {
+		background: url('../image/guia-qrcode-number-tablet.png') no-repeat center top;
+		height: 134px;
+	}
+	.valor .number {
+		background: url('../image/guia-valor-number-tablet.png') no-repeat center top;
+		height: 134px;
+	}
+	.pagamento .number {
+		background: url('../image/guia-pagamento-confirmado-number-tablet.png') no-repeat center top;
+		height: 134px;
+	}
+	.qr-code .number p, .valor .number p, .pagamento .number p {
+		font-size: 28px;
+	}
+
+
+	.cta-1 p {
+		margin-left: 20px;
+	}
+	.cta-2 {
+		height: 500px;
+	}
+	.cta-2 p {
+		font-size: 50px;
+		margin-right: 20px;
+	}
+
+
+	.form-1 h3, .form-2 h3 {
+		font-size: 38px;
+		margin-left: 20px;
+	}
+	.form-1 input, .form-2 input {
+		width: 90%;
+	}
+	.form-2 button {
+		margin-bottom: 30px;
+	}
+
+
+	.text p {
+		padding: 0 30px;
+		text-align: center;
+	}
+	
+	.footer img {
+		width: 80%;
+	}
+	.footer p, .footer a {
+		font-size: 16px;
+	}
+}
+
+
+/* ANIMACOES SCROLL */
+[data-animation] {
+	filter: alpha(opacity=75);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+	opacity: 0;
+	transition: .4s;
+}
+
+[data-animation="top"] {
+	transform: translate3d(0, -50px, 0);
+}
+
+[data-animation="left"] {
+	transform: translate3d(-50px, 0, 0);
+}
+
+[data-animation="right"] {
+	transform: translate3d(50px, 0, 0);
+}
+
+[data-animation].animate {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+
+/* Hack Opacity Fix IE */
+@media screen and (min-width:0\0) {  
+  [data-animation] {opacity: 1 !important;transition: 0 !important;}
+
+	[data-animation="top"] {transform: translate3d(0, 0, 0) !important;}
+
+	[data-animation="left"] {transform: translate3d(0, 0, 0) !important;}
+
+	[data-animation="right"] {transform: translate3d(0, 0, 0) !important;}
+
+	[data-animation].animate {opacity: 1 !important;transform: translate3d(0, 0, 0) !important;}
+}
